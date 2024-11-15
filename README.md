@@ -1,12 +1,14 @@
+# html_generator
+
 Program wykorzystuje API OpenAI do automatycznego przekształcenia artykułu z pliku tekstowego na kod HTML.
 Umożliwia:
 - wczytanie artykułu z pliku tekstowego tresc_artykulu.txt
 - przetworzenie treści artykułu za pomocą modelu językowego OpenAI (gpt-4o-mini)
 - wygenerowanie kodu HTML z odpowiednimi tagami, tj.: nagłówki, akapity, listy, itp.
-- wskazanie miejsca na grafiki za pomocą znaczników #<img src="image_placeholder.jpg" alt="prompt dla grafiki">.
+- wskazanie miejsca na grafiki za pomocą znaczników
 - zapisanie wygenerowanego kodu w pliku artykul.html
-- użycie podglad.html do wyświetlenia w przeglądarce przykładowo wygenerowanego artykułu.
-- użycie szablon.html do wkleja własnego wygenerowanego artykułu i wyświetlenia go w przeglądarce lub uruchomienie skryptu automat.py do automatycznie zaciągnięcia treści artykul.html i wyświetlenia go automatycznie w przeglądarce za pomocą serwera lokalnego.
+- użycie podglad.html do wyświetlenia w przeglądarce przykładowo wygenerowanego artykułu
+- użycie szablon.html do wkleja własnego wygenerowanego artykułu i wyświetlenia go w przeglądarce lub uruchomienie skryptu automat.py do automatycznie zaciągnięcia treści artykul.html i wyświetlenia go automatycznie w przeglądarce za pomocą serwera lokalnego
 
 Wymagania:
 - Python
@@ -37,10 +39,3 @@ Wyświetlanie artykułu za pomocą serwera lokalnego
 - Po uruchomieniu skrytpu automat.py, automatycznie uruchomi się serwer lokalny i otworzy przeglądarkę z podglądem artykułu.
 - Jeśli przeglądarka się nie otworzy automatycznie, należy wpisać ręcznie w pasku adresu przeglądarki: http://localhost:8000/podglad_auto.html
 - Aby zatrzymać serwer, naciśnij Ctrl+C w terminalu.
-
-
-
-
-
-
-# html_generator
