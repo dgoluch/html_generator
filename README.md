@@ -3,7 +3,7 @@ Umożliwia:
 - wczytanie artykułu z pliku tekstowego tresc_artykulu.txt
 - przetworzenie treści artykułu za pomocą modelu językowego OpenAI (gpt-4o-mini)
 - wygenerowanie kodu HTML z odpowiednimi tagami, tj.: nagłówki, akapity, listy, itp.
-- wskazanie miejsca na grafiki za pomocą znaczników <img src="image_placeholder.jpg" alt="prompt dla grafiki">.
+- wskazanie miejsca na grafiki za pomocą znaczników #<img src="image_placeholder.jpg" alt="prompt dla grafiki">.
 - zapisanie wygenerowanego kodu w pliku artykul.html
 - użycie podglad.html do wyświetlenia w przeglądarce przykładowo wygenerowanego artykułu.
 - użycie szablon.html do wkleja własnego wygenerowanego artykułu i wyświetlenia go w przeglądarce lub uruchomienie skryptu automat.py do automatycznie zaciągnięcia treści artykul.html i wyświetlenia go automatycznie w przeglądarce za pomocą serwera lokalnego.
